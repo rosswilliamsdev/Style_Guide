@@ -14,12 +14,14 @@
   transition: 
     background-color .2s ease-in-out, 
     color .2s ease-in-out;
-}
-
-.nav-link:hover {
+  &:hover {
   color: $white;
   background-color: $color-primary;
 }
+}
+
+// ================================================================
+// MEDIA QUERIES---------------------------------------------------
 
 @media (min-width: $breakpoint) {
   .nav {

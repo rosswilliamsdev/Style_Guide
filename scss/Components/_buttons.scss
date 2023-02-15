@@ -9,23 +9,38 @@
 }
 
 .default {
-  background-color: #51ddfc;
+  background-color: $color-secondary;
+    &:hover {
+    background-color: lighten($color: $color-secondary,$amount:5%);
+  }
 }
 
 .error {
   background-color: #e4757a;
+    &:hover {
+    background-color: lighten($color: #e4757a,$amount:5%);
+  }
 }
 
 .info {
   background-color: #927bc1;
+  &:hover {
+    background-color: lighten($color: #927bc1,$amount:5%);
+  }
 }
 
 .success {
   background-color: $color-success;
+  &:hover {
+    background-color: lighten($color: $color-success,$amount:5%);
+  }
 }
 
 .warning {
   background-color: #fd7856;
+  &:hover {
+    background-color: lighten($color: #fd7856,$amount:5%);
+  }
 }
 
 
