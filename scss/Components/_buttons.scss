@@ -27,3 +27,17 @@
 .warning {
   background-color: #fd7856;
 }
+
+
+// =============
+// MEDIA QUERIES
+// =============
+@media (min-width: $breakpoint) {
+  .btn {
+  padding: 10px 30px;
+}
+
+.btn + .btn {
+  margin-left: 10px;
+}
+}
